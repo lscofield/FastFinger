@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.tudir.fastfinger">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.fastfinger">
+        android:name="android.support.multidex.MultiDexApplication">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ui.actividades.Main"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.fastfinger">
+
+            <intent-filter>
+               <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".ui.actividades.ActivityEventos_ver_add"
+            android:label="@string/salir"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <!-- Actividad Insertar -->
+        <activity
+            android:name=".ui.actividades.InsertActivity"
+            android:label="@string/title_activity_insert"
+            android:parentActivityName=".ui.actividades.ActivityEventos_ver_add"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.actividades.ActivityEventos_ver_add" />
+        </activity>
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+    </application>
+
+</manifest>

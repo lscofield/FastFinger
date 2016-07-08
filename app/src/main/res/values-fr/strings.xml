@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Fast Finger</string>
+    <string name="action_settings">Réalisations</string>
+    <string name="fing">FING</string>
+    <string name="titPunt">Temps: </string>
+    <string name="jugar">Réessayant</string>
+    <string name="velMaxim">Défi:</string>
+    <string name="salir">Réalisations</string>
+    <string name="title_activity_insert">Garder réalisations</string>
+    <string name="action_time">Changer le temps</string>
+    <string name="info2">Fingers!</string>
+    <string name="load">Chargement&#8230;</string>
+    <string name="action_play">Jouer</string>
+    <string name="info">Vous avez fait</string>
+    <string name="info3">Replays?</string>
+    <string name="toast">Pas de temps</string>
+    <string name="tJuego">Temps de jeu</string>
+    <string name="tJuegoHint">temps en secondes</string>
+    <string name="a">à</string>
+    <string name="hint">Ton nom</string>
+    <string name="playTest">De abord, vous devez jouer!</string>
+    <string name="ob">Vous avez</string>
+    <string name="pt">fingers!</string>
+    <string name="id_an">ca-app-pub-2569139228246789/2794220756</string>
+    <string name="id_banner">ca-app-pub-2569139228246789/3712550751</string>
+
+    <string name="action_discard">Annuler</string>
+    <string name="action_done">Garder</string>
+
+    <!-- Diálogos -->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_discard_msg">Annuler?</string>
+    <string name="dialog_cancel">Cancelar</string>
+</resources>

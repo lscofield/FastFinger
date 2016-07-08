@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/prompt"
+    android:layout_width="fill_parent"
+    android:background="#fff"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/tJuego"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/nombre_usuario"
+        android:layout_width="match_parent"
+        android:textCursorDrawable="@null"
+        android:layout_height="wrap_content"
+        android:hint="@string/tJuegoHint"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:focusable="true">
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
